@@ -98,7 +98,7 @@ __END__
 
 =head1 NAME
 
-check_qml.pl - Check a QML file for some of the coding conventions described at L<http://doc.qt.digia.com/qt/qml-coding-conventions.html>
+check_qml.pl - Check a QML file for some of the coding conventions described at L<http://doc.qt.io/qt-4.8/qml-coding-conventions.html>
 
 =head1 SYNOPSIS
 
@@ -106,13 +106,17 @@ check_qml.pl - Check a QML file for some of the coding conventions described at 
 
 =head1 DESCRIPTION
 
-Check a QML file for some of the coding conventions described at L<http://doc.qt.digia.com/qt/qml-coding-conventions.html>. Specifically, this script checks the following things:
+Check a QML file for some of the coding conventions described at L<http://doc.qt.io/qt-4.8/qml-coding-conventions.html>. Specifically, this script checks the following things:
+
+=over
 
 =item The ordering of the ID, properties, signals, functions, and child objects within a QML file.
 
 =item Grouping of three or more anchors.* or font.* properties
 
 =item Duplicate import statements
+
+=back
 
 =head1 SEE ALSO
 
@@ -124,7 +128,7 @@ Zachary Blair, E<lt>zblair@cpan.orgE<gt>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (C) 2013 by Zachary D. Blair
+Copyright (C) 2015 by Zachary D. Blair
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself, either Perl version 5.8.8 or,

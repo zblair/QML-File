@@ -6,6 +6,6 @@ README
 t/00-basic.t
 t/pod.t
 t/pod-coverage.t
-t/Test-Component.qml
+t/TestComponent.qml
 lib/QML/File.pm
 script/check_qml.pl

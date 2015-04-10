@@ -1,7 +1,8 @@
 ---
 name: QML-File
-version: 0.01
-author: ["Zachary Blair <zblair@cpan.org>"]
+version: 0.02
+author:
+  - Zachary Blair <zblair@cpan.org>
 abstract: 'Basic parsing of the high-level structure of QML files.'
 license: perl
 distribution_type: module
@@ -14,6 +15,7 @@ build_requires:
   ExtUtils::MakeMaker: 0
   Test::More: 0
 requires:
+  Class::Accessor: 0
   perl: 5.006
 no_index:
   directory:
@@ -21,7 +23,7 @@ no_index:
 provides:
   QML::File:
     file: lib/QML/File.pm
-    version: 0.01
+    version: 0.02
 keywords:
   - QML
   - Qt

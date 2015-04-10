@@ -4,7 +4,7 @@ use warnings;
 use IO::File;
 use base qw(Class::Accessor);
 
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 QML::File->mk_ro_accessors(qw(name objectType id));
 
