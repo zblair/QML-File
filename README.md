@@ -1,4 +1,4 @@
-QML::File version 0.01
+QML::File version 0.02
 ================================
 
 This module can be used to extract basic information from QML files, such as a list of properties, signals, functions, and child components.
@@ -18,7 +18,7 @@ Test::More
 
 COPYRIGHT AND LICENCE
 
-Copyright (C) 2013 by Zachary Blair
+Copyright (C) 2015 by Zachary Blair
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself, either Perl version 5.8.8 or,
